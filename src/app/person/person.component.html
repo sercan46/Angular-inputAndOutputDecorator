@@ -1,0 +1,9 @@
+<div class="body">
+    <p>Person List</p>
+     <div class="input">
+        <input id="name" #name placeholder="Person Name">
+        <input id="phone" #phone placeholder="Person Phone">
+     </div>
+     <button (click)="addNewPerson(name.value,phone.value)">Add New Person</button>
+    <app-person-detail [personList]="person" (sendPersonDetail)="getPerson($event)"></app-person-detail>
+</div>

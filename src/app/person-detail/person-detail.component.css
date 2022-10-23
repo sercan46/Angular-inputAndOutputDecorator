@@ -1,0 +1,14 @@
+.person-detail{
+    width: 220px;
+    border:2px solid brown;
+    border-radius: 10px;    
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+[class^="ico-"], [class*=" ico-"]{
+    font: normal 1em/1 Arial, sans-serif;
+    display: inline-block;
+  }
+  
+.ico-times:before{ content: "\2718"; }

@@ -1,0 +1,8 @@
+<div *ngIf="persons.length>0">
+    <div class="person-detail" *ngFor="let person of persons">
+        <a (click)="sendData(person)">
+            <span>{{person.name}}:</span>
+            <span class="phone"> {{person.phone}}</span>
+        </a>
+    </div>
+</div>
